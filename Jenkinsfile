@@ -12,7 +12,7 @@ pipeline {
     stage('fluffy test') {
       agent any
       steps {
-        sh 'echo Another Placeholder'
+        sh 'echo Edited Placeholder'
       }
     }
 
